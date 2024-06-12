@@ -14,7 +14,7 @@ class ParentClass {
     public void doSomething() {
         System.out.println("Doing something in ParentClass");
         someNumber++;
-        someString += " World";
+        someString += " Worlds";
         System.out.println(someString);
     }
 

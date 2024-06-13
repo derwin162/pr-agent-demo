@@ -36,7 +36,7 @@ class ChildClass extends ParentClass {
     @Override
     public void doSomething() {
         System.out.println("Doing something in ChildClass");
-        someNumber *= 2;
+        someNumber *= 20;
         System.out.println("someNumber in ChildClass: " + someNumber);
     }
     

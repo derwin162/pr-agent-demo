@@ -8,14 +8,15 @@ public class BadCodeExample {
 }
 
 class ParentClass {
-    public int someNumber = 10;
-    public String someString = "Hello";
+    public int number = 10;
+    public String string = "Hello";
 
     public void doSomething() {
         System.out.println("Doing something in ParentClass");
-        someNumber++;
-        someString += " Worlds";
-        System.out.println(someString);
+        number++;
+        System.out.println(number);
+        string += " Worlds";
+        System.out.println(string);
     }
 
     public void doSomethingElse() {

@@ -46,9 +46,9 @@ class ChildClass extends ParentClass {
         for (int i = 0; i < someNumber; i++) {
             System.out.println("Count in child: " + i);
             if (i % 2 == 0) {
-                System.out.println("Even number in child");
+                System.out.println("Even number in child section");
             } else {
-                System.out.println("Odd number in child");
+                System.out.println("Odd number in child section");
             }
         }
     }
